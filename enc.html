@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Atletico Boca Juniors</title>
+    <meta name="author" content="Diaz Cristian Eduardo">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="logos/boca2007.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+<body>
+    <nav>
+        <div id="logod">
+            <a href="index.html"><img id="logo" src="logos/messi.jpg" alt="Escudo de Boca"></a>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html#unoticias">Noticias</a>
+            </li>
+            <li>
+                <a href="enc.html">¿Quieres Ayudar A Boca? <br> Realiza Una Encuesta!</a>
+            </li>
+            <li>
+                <a href="pp.html">Proximos Partidos</a>
+            </li>
+            <li>
+                <a href="nc.html">Crear Una Cuenta</a>
+            </li>
+            <li>
+                <a href="login.html">Iniciar Sesión</a>
+            </li>
+        </ul>
+    </nav>
+    <hr id="lineasup">
+    <main id="mainenc">
+        <form method="get" action="index.html" id="encesp">
+            <div id="int">
+                <label for="email">Ingrese su email para realizar la encuesta:</label><br />
+                <input type="email" name="email" id="email" placeholder="ejemplo@email.com">
+            </div>
+            <div id="int">
+                <label for="edad">¿Cu&aacute;l es tu edad?</label><br />
+                <label><input type="radio" name="edad" value="18men">Menos de 18 años</label>
+                <label><input type="radio" name="edad" value="18a30">18-30 años</label>
+                <label><input type="radio" name="edad" value="30omas">30 años o más</label>
+            </div>
+            <div id="int">
+                <label for="genero">¿Cu&aacute;l es tu g&eacute;nero?</label><br />
+                <label><input type="radio" name="genero" value="femenino">Femenino</label>
+                <label><input type="radio" name="genero" value="manculino">Masculino</label>
+                <label><input type="radio" name="genero" value="otro">Otro</label>
+            </div>
+            <div id="int">
+                <label for="red">¿Qu&eacute; red social utilizas con m&aacute;s frecuencia?</label><br />
+                <label><input type="radio" name="red" value="facebook">Facebook</label>
+                <label><input type="radio" name="red" value="instagram">Instagram</label>
+                <label><input type="radio" name="red" value="twitter">Twitter (X)</label>
+                <label><input type="radio" name="red" value="otras">Otras</label>
+            </div>
+            <div id="int">
+                <label for="dep">¿Cu&aacute;l es tu deporte favorito del club?</label><br />
+                <label><input type="radio" name="dep" value="fulbo">F&uacute;tbol</label>
+                <label><input type="radio" name="dep" value="baloncesto">Baloncesto</label>
+                <label><input type="radio" name="dep" value="voley">Voley</label>
+                <label><input type="radio" name="dep" value="otro">Otro</label>
+            </div>
+            <div id="int">
+                <label for="anual">De nuestros jugadores, ¿Cu&aacute;l es tu apodo favorito?:</label><br />
+                <label><input type="radio" name="ap" value="ff">"Fat" Fabra</label>
+                <label><input type="radio" name="ap" value="cf">"Cold" Fernández</label>
+                <label><input type="radio" name="ap" value="otoño">Edison "Gagani"</label>
+                <label><input type="radio" name="ap" value="invierno">El Chicho Siesta</label>
+            </div>
+            <div id="int">
+                <label for="masc">Boca busca una mascota, ¿Cuál prefieres?:</label><br />
+                <label><input type="radio" name="masc" value="perro">Perro</label>
+                <label><input type="radio" name="masc" value="gato">Gato</label>
+                <label><input type="radio" name="masc" value="trex">Tiranosaurio Rex</label>
+                <!--lo siento, tenia que poner al tiranosaurio, otra vez.-->
+                <label><input type="radio" name="masc" value="mono">Mono</label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar Encueta!" id="botf">
+            </div>
+        </form>
+    </main>
+    <hr id="lineasup">
+    <aside id="pesp">
+        <p>Nuestros Sponsors</p>
+        <div id="pinterno">
+            <a href="https://www.adidas.com.ar" id="publicidad" class="publi1"></a>
+            <a href="https://pba.betsson.bet.ar" id="publicidad" class="publi2"></a>
+            <a href="https://www.directv.com.ar" id="publicidad" class="publi3"></a>
+            <a href="https://www.paxassistance.com/es-ar/" id="publicidad" class="publi4"></a>
+        </div>
+    </aside>
+    <div id="transicionindex"></div>
+    <footer>
+        <a id="cabj" href="#"><img src="logos/bocaact.png" style="height: 40px;">&nbsp; Club Atletico Boca Juniors</a>
+        <div id="redes">
+            <ul>
+                <li><a href="https://www.youtube.com/@DavooXeneizeRomanD10S"><i class="fi fi-brands-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/bocajrs/?hl=es"><i class="fi fi-brands-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/BocaJuniors/"><i class="fi fi-brands-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/BocaJuniors/"><i class="fi fi-brands-twitter"></i></a></li>
+                <li><a href="https://www.tiktok.com/@bocajuniors?lang=es"><i class="fi fi-brands-tik-tok"></i></a></li>
+                <li><a href="https://www.google.com/maps/place/Estadio+Alberto+J.+Armando/@-34.6356109,-58.3647563,15z/data=!4m6!3m5!1s0x95a334b6925e5473:0x1ca5b2748858b40d!8m2!3d-34.6356109!4d-58.3647563!16zL20vMDNmMDZw?entry=ttu"><i class="fi fi-sr-marker"></i></a></li>
+            </ul>
+        </div>
+        <p id="copy">© Copyright 2024 Boca Juniors <br> Desarrollado por Diaz Cristian Eduardo</p>
+    </footer>
+</body>
+</html>
